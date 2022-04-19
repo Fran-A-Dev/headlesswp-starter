@@ -66,12 +66,12 @@ const ContactPage = () => {
   return (
     <div className="container">
       <Head>
-        <title>Fran-Netlify Forms Example</title>
+        <title>Netlify Forms Example</title>
       </Head>
       <h1>Contact Us</h1>
 
       <main>{formVisible ? ContactForm : ConfirmationMessage}</main>
-      <footer>NextJS + Netlify Forms Example by Fran_The_Dev</footer>
+      <footer>Netlify Forms Example by Fran_The_Dev</footer>
       <style jsx global>
         {`
           html,
